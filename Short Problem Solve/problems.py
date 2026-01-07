@@ -101,3 +101,62 @@
 #     activity = "Build a snowman"
 
 # print(activity)
+
+# question 7
+# distance = int(input("Enter Distance :"))
+# if distance < 3:
+#     transport = "Walk"
+# elif distance <= 15:
+#     transport = "Bike"
+# else:
+#     transport = "Car"
+
+# print("Recomended for you", transport)
+
+# question 7
+# coffeeSize = input("Enter Coffee Size :").strip().lower()
+# extraShot = input("Like extra shot :")
+
+# if extraShot == "true":
+#     extraShot = True
+# elif extraShot == "false":
+#     extraShot = False
+# else:
+#     print("Please enter only True or False")
+#     extraShot = None
+#     exit()
+
+# if extraShot:
+#     print("Enjoy coffee With an extra shot")
+# else:
+#     print("enjoy your coffee", coffeeSize)
+
+# question 8
+# password = input("Enter your password :").strip().lower()
+# pass_len = len(password)
+
+# if pass_len < 8:
+#     message = "your password is week"
+# elif pass_len <= 15:
+#     message = "your password is normal"
+# else:
+#     message = "your password is strong"
+
+# print(message)
+
+# question 9
+# year = int(input("Enter year : "))
+# if (year % 4 == 0 and year % 100 != 0) or (year % 4 == 0):
+#     print(year, "is a leap year")
+# else:
+#     print(year, "is not a leap year")
+
+# question 10
+# puppyName = input("Enter puppy name :").strip().lower()
+# petAge = int(input("Enter pet age :"))
+# if petAge <= 3 and puppyName == "dog":
+#     print("Recomended puppy food")
+# elif petAge <= 5 and puppyName == "cat":
+#     print("Recomended junior food")
+# else:
+#     print("adult food")
