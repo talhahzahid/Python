@@ -1,4 +1,4 @@
-import time
+# import time
 # numbers = [1, -2, 3, -4, 5, 6, -7, -8, -9, 10]
 # positive_number_count = 0
 
@@ -88,12 +88,24 @@ for i in range(1, number):
 # print(is_prime)
 
 
-wait_time = 1
-max_retries = 5
-attemps = 0
+# wait_time = 1
+# max_retries = 5
+# attemps = 0
 
-while attemps < max_retries:
-    print("attemps", attemps + 1, "wait time", wait_time)
-    time.sleep(wait_time)
-    wait_time *= 2
-    attemps += 1
+# while attemps < max_retries:
+#     print("attemps", attemps + 1, "wait time", wait_time)
+#     time.sleep(wait_time)
+#     wait_time *= 2
+#     attemps += 1
+
+
+list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+even_num = 0
+
+for i in list:
+    if i % 2 != 0:
+        even_num += 1
+
+
+print(even_num)
