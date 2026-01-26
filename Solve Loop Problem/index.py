@@ -59,7 +59,7 @@ while number > 0:
     factorial = number * factorial
     number = number - 1
 
-# print(factorial, "factorial")
+print(factorial, "factorial")
 
 # factorial ///  7 42 210 840 2520 5040
 # number    ///  6 5  4   3   2    1
@@ -90,13 +90,13 @@ for i in range(1, number):
 
 # wait_time = 1
 # max_retries = 5
-# attemps = 0
+# attempts = 0
 
-# while attemps < max_retries:
-#     print("attemps", attemps + 1, "wait time", wait_time)
+# while attempts < max_retries:
+#     print("attempts", attempts + 1, "wait time", wait_time)
 #     time.sleep(wait_time)
 #     wait_time *= 2
-#     attemps += 1
+#     attempts += 1
 
 
 list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -108,4 +108,4 @@ for i in list:
         even_num += 1
 
 
-print(even_num)
+# print(even_num)
